@@ -6,7 +6,7 @@ h1{
 .heder{
     color: orange;
 }
-section{
+.flexible-sec{
     display: flex;
 }
 .half-width{
@@ -35,4 +35,25 @@ body{
     background-image: url(../img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.flex-con{
+    display: flex;
+}
+.expreance-box{
+    width: 50%;
+    padding: 4%;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+.third-part{
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#left-border{
+    border-left: 8px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
 }
