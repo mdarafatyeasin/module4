@@ -1,0 +1,32 @@
+h1{
+    color: black;
+    font-family: 'Pushster', cursive;
+    font-size: 50px;
+}
+.heder{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width  img{
+    width: 80%;
+}
+.buttun{
+    color: black;
+    background-image: linear-gradient(red, orange);
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.background-img{
+    background-image: url(../img/top-banner.png);
+    background-repeat: no-repeat;
+}
+body{
+    margin: 0;
+}
